@@ -7,8 +7,8 @@ TurtleBot is a low-cost, personal robot kit with open source software. The Turtl
 
 
 # Create catkin workspace using the following commend:
-لاتنسى انشاء مساحة للعمل عن طريق هذه الاوامر 
-source /opt/ros/noetic/setup.bash
-mkdir -p ~/catkin_ws/src
-cd ~/catkin_ws/
-catkin_make
+ 
+1- source /opt/ros/noetic/setup.bash
+2- mkdir -p ~/catkin_ws/src
+3- cd ~/catkin_ws/
+4- catkin_make
