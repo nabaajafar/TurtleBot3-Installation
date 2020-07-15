@@ -4,3 +4,11 @@ https://automaticaddison.com/how-to-launch-the-turtlebot3-simulation-with-ros/#g
 
 
 TurtleBot is a low-cost, personal robot kit with open source software. The TurtleBot kit consists of a mobile base, 3D Sensor, laptop computer, and the TurtleBot mounting hardware kit. I have installed ros kinetic version. I have installed the turtlebot3 package, turtlebot3 simulation package, and launched a simulation file
+
+
+# Create catkin workspace using the following commend:
+لاتنسى انشاء مساحة للعمل عن طريق هذه الاوامر 
+source /opt/ros/noetic/setup.bash
+mkdir -p ~/catkin_ws/src
+cd ~/catkin_ws/
+catkin_make
